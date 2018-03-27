@@ -7,15 +7,15 @@ while playing:
         x = randint(1, 10)
         y = randint(1, 10)
         err = randint(-1, 1)
-        op = ['+', '-', '*', '/', '+', '+', "-", '*']
+        op = ['+', '-', '*', '/', '+', '+', "+",]
         ran_op = choice(op)
     elif level >= 5:
         if level == 5:
             print('level up!!')
-        x = randint(1, 20)
-        y = randint(1, 20)
+        x = randint(1, 25)
+        y = randint(1, 25)
         err = randint(-1, 1)
-        op = ['+', '+', '+', '-', '-', '-', "*", '/']
+        op = ['+', '+', '-', '-', '/', '/', "/", '/', '*', '*', '*']
         ran_op = choice(op)
         if level == 10:
             print('Win cmnr!')

@@ -2,13 +2,15 @@ from random import *
 from f_math import calc
 def generate_quiz():
     err = choice([-1,0,1])
-    ops = ['+','+', '-', '-', '-', '*', '*', '*', '/', '/']
+    ops = ['+','+', '-', '-', '-', '*', '*','/']
     op = choice(ops)
     x = randint(0,10)
     if op =='/':
         y = randint(1,10)
     else:
         y = randint(0,10)
+
+
     result = calc(x,y,op) + err
     return [x, y, op, result]
 
