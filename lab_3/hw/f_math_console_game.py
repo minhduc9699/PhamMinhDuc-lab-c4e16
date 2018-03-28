@@ -31,6 +31,7 @@ while playing:
         ran_op = choice(op)
         if level == 20:
             print('Win cmnr!!')
+            break
 
 
 
